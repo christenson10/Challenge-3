@@ -14,7 +14,7 @@ var upCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var lowCase = "abcdefghijklmnopqrstuvwxyz";
 var number = "0123456789";
 var specChar = "~!@#$%^&*()_+{}|<>?/[]";
-var emptyPassword = '';
+var emptyPassword = "";
 
 //Prompt user to make choices
 function charChoice () {
@@ -25,16 +25,16 @@ function charChoice () {
 
   //If statements to string together user choices, adds tt
     if (upCaseChoice){
-      emptyPassword += upCaseChoice
+      emptyPassword += upCase
     }
     if (lowCaseChoice){
-      emptyPassword += lowCaseChoice
+      emptyPassword += lowCase
     }
     if (numberChoice){
-      emptyPassword += numberChoice
+      emptyPassword += number
     }
     if (specCharChoice){
-      emptyPassword += specCharChoice
+      emptyPassword += specChar
     }
 }
 
@@ -42,7 +42,7 @@ function charChoice () {
 function generatePassword(){
 
 //Determine password length when prompted
-  var passwordLength = prompt("How long would you like your password to be? Choose between 8 and 128 character.");  //If statement to qualify between 8 - 128
+  var passwordLength = prompt("How long would you like your password to be? Choose between 8 and 128 character.");
   
   //If chosen outside of the parameters
   if (passwordLength < 8 || passwordLength > 128) {
