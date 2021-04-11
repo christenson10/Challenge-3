@@ -37,22 +37,22 @@ THEN the password is either displayed in an alert or written to the page
 ## Screen Shots
 
 ## Prompted to "Generate Password"
-![Generage Password](A3-1.jpg)
+![Generate Password](A3-1.jpg)
 
 ## Asked for length between 8 and 128 characters
-![Generage Password](A3-2.jpg)
+![Generate Password](A3-2.jpg)
 
 ## Would you like uppercase?
-![Generage Password](A3-2.1.jpg)
+![Generate Password](A-2.1.jpg)
 
 ## Would you like lowercase?
-![Generage Password](A3-3.jpg)
+![Generate Password](A3-3.jpg)
 
 ## Would you like numbers?
-![Generage Password](A3-4.jpg)
+![Generate Password](A3-4.jpg)
 
 ## Would you like special characters?
-![Generage Password](A3-5.jpg)
+![Generate Password](A3-5.jpg)
 
 ## Finally, password is generated!
-![Generage Password](A3-6.jpg)
+![Generate Password](A3-6.jpg)
